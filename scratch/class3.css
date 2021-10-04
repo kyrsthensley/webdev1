@@ -1,3 +1,13 @@
-h1 {
-    color:blue;
+header {
+    text-align: center;
+    background-color: blueviolet;
+    text-decoration: none;
+}
+
+body {
+    background-color: cadetblue;
+}
+
+section {
+    background-color: cornflowerblue;
 }
