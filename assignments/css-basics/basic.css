@@ -1,0 +1,66 @@
+body {
+    background:rgb(213, 247, 250);
+    color: rgb(91, 94, 97);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin: 20px 200px 20px 200px;
+}
+
+nav {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+ul {
+    margin: 50px;
+}
+
+li {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+nav a {
+    color: rgb(91, 94, 97);
+}
+
+nav a:hover {
+    color: blueviolet;
+}
+
+h1 {
+    font-family: 'Abril Fatface', cursive;
+    text-align:center;
+}
+
+h5 {
+    text-align: center;
+}
+
+section {
+    border: 3px solid darkcyan;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: ghostwhite;
+}
+
+section h1 {
+    background-color:bisque;
+}
+
+div {
+    text-align: center;
+    padding: 20px;
+}
+
+img {
+    width: 400px;
+}
+
+footer {
+    margin-top: 20px;
+}
