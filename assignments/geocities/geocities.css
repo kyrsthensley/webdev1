@@ -1,0 +1,91 @@
+/* 
+font-family: 'Festive', cursive;
+font-family: 'Indie Flower', cursive;
+*/
+
+body {
+    width: 60rem;
+    margin: auto;
+    font-family: 'Indie Flower', cursive;
+    background-image: url(images/peace.jpg);
+}
+
+header {
+    height: 300px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+#gif1 {
+    width: 150px;
+    float: left;
+}
+
+#gif2 {
+    width: 150px;
+    float: right;
+}
+
+img {width: 200px;}
+
+h1 {
+    font-family: 'Festive', cursive;
+    color: blue;
+    font-size: 3em;
+    margin: 0;
+}
+
+h3 {
+    margin:auto;
+}
+
+li {
+    text-decoration: none;
+}
+
+#profile {
+    margin: 1.5em 1.5em 1.5em 0em;
+    padding: 4em;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+#music {
+    margin: 1.5em 0em 1.5em 1.5em;
+    padding: 4em;
+    float: right;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+#fly {
+    clear: both;
+    background-color: rgba(245, 194, 194, 0.8);
+}
+
+#flyy {
+    width: 100%;
+}
+
+#pref {
+    padding: 4em;
+    margin: 1.5em 1.5em 1.5em 0em;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+#potd {
+    padding: 4em;
+    float: right;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 1.5em 0em 1.5em 1.5em;
+}
+
+#potd1 {
+
+}
+
+footer {
+    clear: both;
+    background-color: rgba(255, 255, 255, 0.8);
+}
