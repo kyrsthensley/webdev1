@@ -14,16 +14,21 @@ header {
     height: 300px;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.8);
+
 }
 
 #gif1 {
     width: 150px;
-    float: left;
+    position: absolute;
+    left: 20em;
+    top: 4em;
 }
 
 #gif2 {
     width: 150px;
-    float: right;
+    position: absolute;
+    left: 55em;
+    top: 4em;
 }
 
 img {width: 200px;}
@@ -33,14 +38,16 @@ h1 {
     color: blue;
     font-size: 3em;
     margin: 0;
+    
 }
+
 
 h3 {
     margin:auto;
 }
 
 li {
-    text-decoration: none;
+    list-style-type: none;
 }
 
 #profile {
@@ -81,8 +88,9 @@ li {
     margin: 1.5em 0em 1.5em 1.5em;
 }
 
-#potd1 {
-
+#flowerr {
+    position: fixed;
+    left: 32em;
 }
 
 footer {
