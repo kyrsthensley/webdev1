@@ -1,0 +1,45 @@
+body{
+    margin-top: 10em;
+    display: grid;
+    place-items: center;
+}
+
+p{
+    text-align:center;
+}
+.cont{
+    width: 190px;
+    text-align: center;
+    border: 1px solid aqua;
+    overflow: hidden;
+}
+ul{
+    list-style-type: decimal;
+    padding: 7em;
+}
+
+.bar {
+    width: 200px;
+    height: 50px;
+    
+    background: linear-gradient(90deg,purple, purple 40%, pink 50%, purple 60%, purple 100%);
+    background-size: 300% 100%;
+    animation: loading 15s linear ;
+    animation-fill-mode: forwards;
+  }
+@keyframes loading {
+
+  0% {
+    background-position: 100%;
+     }
+  100% {
+    background-position: 0;}
+
+  from {
+        transform: scale(0,1);
+        transform-origin: left;
+    }
+  to {
+        transform: scale(5,1);
+    }
+}
