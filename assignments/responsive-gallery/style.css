@@ -98,13 +98,14 @@
     }
     
 
-    ul {
-        display: block;
-    }
-
     .works {
         
         gap: 5px;
+    }
+
+    header {
+        display: none;
+        text-align: center;
     }
 
 }
@@ -119,12 +120,18 @@
     
 
     ul {
-        display: block;
+        display: inline-block;
     }
 
     .works {
         
         gap: 5px;
+    }
+
+    header {
+        display: block;
+        text-align: center;
+
     }
 
 }
